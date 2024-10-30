@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  background-color: #fffdf6;
+  line-height: 1.6;
+}
+
+.navbar {
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.38rem;
+  font-weight: 500; /* Changed to a valid weight */
+  padding: 10px 0px 0px 5px;
+  background-color: #fffdf6; /* Matches background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+  z-index: 10;
+}
+
+.nav-element {
+  text-decoration: none;
+  color: rgb(181, 180, 180);
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+#logo {
+  width: 75px;
+  border-radius: 50%;
+}
+.nav-element:hover {
+  color: black;
+}
+
+.centreDiv {
+  display: flex;
+  gap: 35px;
+}
+
+.help {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.help:hover {
+  background-color: #151515;
+}
+
+#question {
+  color: white;
+  font-weight: 500;
+}
+
+.centre {
+  padding: 10px;
+}
+.centreDiv > * {
+  height: 60px;
+  margin-top: 10px;
+}
+
+.question-login {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 80px 150px;
+  margin: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.logo-section p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.right-section p {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.social-icons .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #333;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+body {
+  margin: 0;
+  font-family: Nunito, sans-serif;
+}
+.container {
+  width: 1440px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-items: flex-start;
+}
+/* Header Styles */
+
+.logo div.circle {
+  background: black;
+  border-radius: 50%;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f8f5eb;
+  text-align: center;
+}
+
+.nav-item.active,
+.nav-item.login {
+  background: black;
+  border-radius: 8px;
+  color: white;
+  margin: auto;
+}
+.nav-item.login {
+  border-radius: 30px;
+  background: #202020;
+  margin: auto;
+}
+/* Main Content Styles */
+.main-content {
+  width: 100%;
+  height: 633px;
+  padding: 96px 0;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  width: 1152px;
+  display: flex;
+}
+.card {
+  width: 319px;
+  height: 201px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  text-align: center;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card img {
+  position: absolute;
+  top: 27px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-title {
+  position: absolute;
+  top: 135px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: black;
+}
+/* Footer Styles */
+.footer {
+  width: 100%;
+  padding: 96px 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.footer-content {
+  width: 1152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  text-decoration: underline;
+}
+.social-icons div {
+  width: 32px;
+  height: 32px;
+  background: white;
+}
+.divider {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+}
+
+.card > img {
+  width: 74px;
+  height: 74px;
+  transition: widht 0.3s ease;
+}
+
+.card > img:hover {
+  width: 94px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.hello {
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 0 16px;
+  transition: background-color 0.3s ease;
+}
+.hello:hover {
+  background-color: #151515;
+}
